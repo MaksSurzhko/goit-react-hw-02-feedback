@@ -1,4 +1,4 @@
-import State from "./feedback/state"
+import Feedback from "./feedback/state";
 
 export const App = () => {
   return (
@@ -12,13 +12,8 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <State
-        state={{
-          good: 0,
-          neutral: 0,
-          bad: 0
-        }}
-    />
+      < Feedback
+      />      
     </div>
   );
 };
